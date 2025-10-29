@@ -8,8 +8,6 @@ export const schemaTypes = [
   carrosselType,
   clientesType,
   cursosType,
-  perguntaType,
-  respostaType,
   feedbackType,
   metodologiaType,
 ]

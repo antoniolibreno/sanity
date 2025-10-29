@@ -20,5 +20,10 @@ export const cursosType = defineType({
       title: 'Nível',
       type: 'string',
     }),
+    defineField({
+      name: 'imagem',
+      title: 'Imagem',
+      type: 'image',
+    }),
   ],
 })
