@@ -7,22 +7,27 @@ export const clientesType = defineType({
   fields: [
     defineField({
       name: 'Nome',
+      title: 'Nome',
       type: 'string',
     }),
     defineField({
       name: 'Telefone',
+      title: 'Telefone',
       type: 'number',
     }),
     defineField({
         name: 'Email',
+        title: 'Email',
         type: 'string',
       }),
       defineField({
         name: 'Nivel',
-        type: 'number',
+        title: 'Nível',
+        type: 'string',
       }),
 defineField({
       name: 'Idade',
+      title: 'Idade',
       type: 'number',
     }),
   ],

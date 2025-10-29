@@ -1,7 +1,6 @@
 import { carrosselType } from './carrosselType'
 import { clientesType } from './clienteType'
 import { cursosType } from './cursosType'
-import { perguntaType, respostaType } from './faqType'
 import { feedbackType } from './feedbackType'
 import { metodologiaType } from './metodologiaType'
 

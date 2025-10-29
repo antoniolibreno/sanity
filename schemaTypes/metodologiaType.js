@@ -6,12 +6,14 @@ export const metodologiaType = defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'titulo',
-      type: 'string',
+      name: 'metodologiaImagem1',
+      title: 'Imagem 1',
+      type: 'image',
     }),
     defineField({
-        name: 'descricao',
-        type: 'string',
-    })
+      name: 'metodologiaImagem2',
+      title: 'Imagem 2',
+      type: 'image',
+    }),
   ],
 })
